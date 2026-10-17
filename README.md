@@ -18,11 +18,6 @@ Studio's hosted service after you sign in and select an environment, so access
 stays tied to your identity, environment permissions, and organizational
 policies.
 
-The built-in, fixed OAuth client is **VS Code**
-(`51f81489-12ee-4a9e-aaae-a2591f45987d`). This does not grant application
-permissions or tenant consent. No client ID is required from the user;
-client-ID overrides are not supported.
-
 ## Notice
 
 If your organization requires [Federal Risk and Authorization Management Program
