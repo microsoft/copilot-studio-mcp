@@ -51,8 +51,8 @@ option for your client.
 ## Available tools
 
 After you sign in and select an environment, the server makes the connected
-service's tools available. Connection and sign-in utilities are separate from
-the service catalog:
+service's tools available. The service catalog includes the following tools.
+Connection and sign-in utilities are separate.
 
 | Tool | Description |
 | --- | --- |
@@ -63,9 +63,10 @@ the service catalog:
 | `get_copilot_studio_skills` | Start here for Copilot Studio guidance. Read the matching core skill before authoring, then read `schema.json`. |
 
 The management, discovery, and consumption tools expose individual operations
-through `action` and `parameters`; use `discover_resources` with
-`action=describe_actions` to read an action's contract before constructing
-unfamiliar arguments.
+through `action` and `parameters`. The current tool schemas identify the
+advertised actions and their inputs. To read the focused contract and
+side-effect information for an action before you construct unfamiliar
+arguments, use `discover_resources` with `action=describe_actions`.
 
 ## Troubleshooting
 
