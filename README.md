@@ -16,8 +16,7 @@ It's also discoverable through the
 Your client launches this package with `npx`. The server connects to Copilot
 Studio's hosted service after you sign in and select an environment, so access
 stays tied to your identity, environment permissions, and organizational
-policies. It has no diagnostic capture or bug-reporting commands. Agent/workflow
-tools and Skills come from the connected service, not local authoring files.
+policies.
 
 The built-in, fixed OAuth client is **VS Code**
 (`51f81489-12ee-4a9e-aaae-a2591f45987d`). This does not grant application
