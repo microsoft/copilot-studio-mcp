@@ -48,17 +48,6 @@ Registry or a supported client's MCP gallery (for example, VS Code's
 `@mcp`/"Browse MCP Servers" gallery) and follow the listing's installation
 option for your client.
 
-After the server is configured, ask the assistant:
-
-> Check Copilot Studio MCP status and confirm the connected environment.
-> Then connect and list my available environments so I can choose one.
-> Do not create, publish, run, or repair anything as part of setup.
-
-Complete Microsoft work-account sign-in in your browser and choose your
-environment. The tenant comes from the selected account; no tenant ID,
-password, or token belongs in chat. Installing the package does not grant
-licenses, tenant consent, or environment permissions.
-
 ## Available tools
 
 After you sign in and select an environment, the server makes the connected
